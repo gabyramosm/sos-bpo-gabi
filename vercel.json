@@ -32,10 +32,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "functions": {
-    "api/chat.js": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
