@@ -1,0 +1,16 @@
+{
+  "name": "sos-bpo-gabi",
+  "version": "1.0.0",
+  "description": "SOS BPO · Gabi — Asistente IT con IA (IBM watsonx)",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}
