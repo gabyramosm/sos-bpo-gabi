@@ -144,9 +144,8 @@ var Engine = (function () {
 
   /* ── Detectar si estamos en localhost ───────────────────── */
   var IS_LOCAL = (function () {
-    var h = window.location.hostname;
-    return h === 'localhost' || h === '127.0.0.1' || h === '';
-  })();
+    return true;
+     })();
 
   /* ── Opciones del selector (reutilizado en varios lugares) ── */
   var FLOW_OPTIONS = [
