@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Pantalla BitLocker — opciones para hacer backup de la clave de recuperación">
+  <title>BitLocker Drive Encryption — Hacer una copia de seguridad de la clave de recuperación</title>
+  <!-- Fondo ventana Windows -->
+  <rect width="720" height="340" rx="6" fill="#f0f0f0"/>
+  <!-- Barra de título -->
+  <rect width="720" height="32" rx="6" fill="#1a1a1a"/>
+  <rect y="16" width="720" height="16" fill="#1a1a1a"/>
+  <text x="16" y="21" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff">🔒 BitLocker Drive Encryption (C:)</text>
+  <!-- Botones ventana -->
+  <rect x="666" y="8" width="16" height="16" rx="2" fill="#333"/>
+  <text x="670" y="20" font-family="Segoe UI,sans-serif" font-size="12" fill="#aaa">×</text>
+
+  <!-- Contenido principal -->
+  <rect x="0" y="32" width="720" height="308" fill="#ffffff"/>
+
+  <!-- Título sección -->
+  <text x="30" y="72" font-family="Segoe UI,system-ui,sans-serif" font-size="16" font-weight="600" fill="#0f62fe">¿Cómo desea hacer una copia de seguridad de la clave de recuperación?</text>
+  <text x="30" y="94" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">Una clave de recuperación puede usarse para acceder a sus archivos si tiene problemas para desbloquear su PC.</text>
+  <text x="30" y="110" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">Se recomienda guardar más de una y mantenerlas en un lugar seguro fuera del PC.</text>
+
+  <!-- Flecha roja indicadora hacia "Imprimir" -->
+  <line x1="110" y1="190" x2="154" y2="175" stroke="#cc0000" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Opción 1: Guardar en cuenta Microsoft (destacada) -->
+  <rect x="30" y="126" width="660" height="44" rx="3" fill="#edf5ff" stroke="#0f62fe" stroke-width="1.5"/>
+  <text x="54" y="148" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#0f62fe">→</text>
+  <text x="74" y="148" font-family="Segoe UI,system-ui,sans-serif" font-size="13" font-weight="500" fill="#161616">Guardar en la cuenta de Microsoft</text>
+  <text x="74" y="163" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Recomendado — accesible desde myaccount.microsoft.com</text>
+
+  <!-- Opción 2: Guardar en unidad USB -->
+  <rect x="30" y="176" width="660" height="44" rx="3" fill="#f4f4f4" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="54" y="198" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#525252">→</text>
+  <text x="74" y="198" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#161616">Guardar en una unidad flash USB</text>
+  <text x="74" y="213" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Conecte una unidad USB vacía</text>
+
+  <!-- Opción 3: Guardar en archivo -->
+  <rect x="30" y="226" width="660" height="44" rx="3" fill="#f4f4f4" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="54" y="248" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#525252">→</text>
+  <text x="74" y="248" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#161616">Guardar en un archivo</text>
+  <text x="74" y="263" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">No puede guardarse en el disco cifrado</text>
+
+  <!-- Opción 4: Imprimir (con flecha indicadora) -->
+  <rect x="30" y="276" width="660" height="44" rx="3" fill="#f4f4f4" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="54" y="298" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#525252">→</text>
+  <text x="74" y="298" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#161616">Imprimir la clave de recuperación</text>
+
+  <!-- Flecha roja apuntando a "Imprimir" -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#cc0000"/>
+    </marker>
+  </defs>
+  <line x1="22" y1="298" x2="44" y2="298" stroke="#cc0000" stroke-width="2.5" marker-end="url(#arrow)"/>
+</svg>

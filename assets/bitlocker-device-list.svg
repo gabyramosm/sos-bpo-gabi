@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="myaccount.microsoft.com — lista de dispositivos con botón View BitLocker Keys">
+  <title>myaccount.microsoft.com/device-list — Cómo obtener la clave de recuperación BitLocker</title>
+  <!-- Fondo de la página -->
+  <rect width="960" height="480" fill="#e8e8e8"/>
+
+  <!-- Panel lateral izquierdo -->
+  <rect x="0" y="0" width="220" height="480" fill="#fafafa" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Logo IBM + avatar -->
+  <rect x="12" y="14" width="36" height="14" rx="2" fill="#0f62fe"/>
+  <text x="14" y="25" font-family="Arial,sans-serif" font-size="11" font-weight="900" fill="#ffffff">IBM</text>
+
+  <!-- Menú lateral -->
+  <circle cx="24" cy="64" r="16" fill="#c8c8c8"/>
+  <text x="18" y="69" font-family="Segoe UI,system-ui,sans-serif" font-size="10" fill="#555">GR</text>
+  <text x="46" y="61" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="600" fill="#1a1a1a">Gabriela Ramos</text>
+  <text x="46" y="76" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Gaby.R@ibm.com</text>
+
+  <line x1="12" y1="96" x2="208" y2="96" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="46" y="118" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">🏠 Home</text>
+  <text x="46" y="144" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">👤 My Account</text>
+  <text x="46" y="170" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">ℹ  Security info</text>
+
+  <rect x="0" y="184" width="220" height="28" fill="#e8f0fe"/>
+  <text x="46" y="202" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0f62fe">💻 Devices</text>
+
+  <text x="46" y="228" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">🔑 Change password</text>
+  <text x="46" y="254" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">🏢 Organizations</text>
+  <text x="46" y="280" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">⚙  Settings &amp; Privacy</text>
+  <text x="46" y="306" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">📋 Recent activity</text>
+
+  <!-- Contenido principal -->
+  <rect x="220" y="0" width="740" height="480" fill="#f5f5f5"/>
+
+  <!-- Título -->
+  <text x="256" y="42" font-family="Segoe UI,system-ui,sans-serif" font-size="22" font-weight="600" fill="#1a1a1a">Devices</text>
+  <text x="256" y="64" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#0f62fe">If you lose a device or no longer use it, disable it so no one else can gain access to it.</text>
+
+  <!-- Tarjeta dispositivo 1 (activo) - IBM-PF5T87BZ -->
+  <rect x="236" y="84" width="700" height="130" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Header de la tarjeta -->
+  <rect x="236" y="84" width="700" height="40" rx="4" fill="#f8f8f8"/>
+  <rect x="236" y="104" width="700" height="20" fill="#f8f8f8"/>
+  <text x="268" y="109" font-family="Segoe UI,system-ui,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">💻  IBM-PF5T87BZ</text>
+  <text x="560" y="109" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">Windows</text>
+  <text x="840" y="109" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#24a148" font-weight="600">Active</text>
+
+  <!-- Cuerpo tarjeta 1 -->
+  <text x="280" y="148" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Device is managed by Intune.</text>
+  <text x="540" y="141" font-family="Segoe UI,system-ui,sans-serif" font-size="11" font-weight="600" fill="#525252">Organization Status</text>
+  <text x="540" y="158" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#24a148">Active</text>
+  <text x="770" y="141" font-family="Segoe UI,system-ui,sans-serif" font-size="11" font-weight="600" fill="#525252">Device object ID</text>
+  <text x="770" y="158" font-family="Segoe UI,system-ui,sans-serif" font-size="10" fill="#525252">4fa79102-cc5c-48aa…</text>
+
+  <!-- Botón View BitLocker Keys — destacado con borde -->
+  <rect x="270" y="168" width="172" height="34" rx="3" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="295" y="190" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="500" fill="#1a1a1a">View Bitlocker Keys</text>
+
+  <!-- Flecha roja señalando el botón View BitLocker Keys -->
+  <defs>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#cc0000"/>
+    </marker>
+  </defs>
+  <line x1="228" y1="185" x2="263" y2="185" stroke="#cc0000" stroke-width="2.5" marker-end="url(#arrowR)"/>
+
+  <!-- Icono copiar (con flecha apuntando) -->
+  <rect x="890" y="172" width="28" height="28" rx="3" fill="#f4f4f4" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="897" y="191" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#525252">⎘</text>
+  <!-- Flecha apuntando al icono copiar -->
+  <line x1="932" y1="186" x2="922" y2="186" stroke="#cc0000" stroke-width="2.5" marker-end="url(#arrowR)"/>
+
+  <!-- Separador -->
+  <line x1="236" y1="228" x2="936" y2="228" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Tarjeta dispositivo 2 (inactivo) -->
+  <rect x="236" y="240" width="700" height="52" rx="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="268" y="267" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#525252">💻  IBM-PF2PL8Q6</text>
+  <text x="840" y="267" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#8d8d8d">Inactive</text>
+
+  <!-- Modal de Recovery Key -->
+  <rect x="0" y="0" width="960" height="480" fill="rgba(100,100,100,0.55)"/>
+  <rect x="260" y="270" width="440" height="180" rx="6" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+
+  <!-- Header modal -->
+  <text x="290" y="306" font-family="Segoe UI,system-ui,sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">Bitlocker Recovery Key</text>
+  <text x="672" y="306" font-family="Segoe UI,system-ui,sans-serif" font-size="18" fill="#666">×</text>
+
+  <!-- Clave de recuperación -->
+  <text x="290" y="338" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="600" fill="#1a1a1a">Recovery key:</text>
+  <text x="290" y="358" font-family="Courier New,monospace" font-size="11" fill="#1a1a1a">026730-160116-557909-614647-249172-665148-208780-260733</text>
+
+  <!-- Botón copiar clave -->
+  <rect x="624" y="346" width="52" height="28" rx="3" fill="#f4f4f4" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="638" y="365" font-family="Segoe UI,system-ui,sans-serif" font-size="14" fill="#525252">⎘</text>
+
+  <!-- Flecha roja apuntando al botón copiar -->
+  <line x1="686" y1="360" x2="680" y2="360" stroke="#cc0000" stroke-width="2.5" marker-end="url(#arrowR)"/>
+
+  <!-- Botón Cerrar -->
+  <rect x="594" y="412" width="80" height="32" rx="3" fill="#f4f4f4" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="616" y="433" font-family="Segoe UI,system-ui,sans-serif" font-size="13" fill="#1a1a1a">Close</text>
+
+  <!-- Nota instructiva -->
+  <text x="290" y="392" font-family="Segoe UI,system-ui,sans-serif" font-size="10" fill="#525252">⚠ Verificá que el ID de la clave coincide con el de la pantalla azul.</text>
+</svg>

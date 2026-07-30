@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-label="BIOS Dell — Pantalla Security con TPM 2.0 en OFF — hay que activarlo a ON">
+  <title>BIOS Dell — Security &gt; TPM 2.0 Security: hay que activar a ON y aplicar cambios</title>
+  <!-- Fondo BIOS -->
+  <rect width="720" height="500" fill="#d1cfcd"/>
+
+  <!-- Panel izquierdo de navegación -->
+  <rect x="0" y="0" width="200" height="500" fill="#1a6496"/>
+  <text x="16" y="32" font-family="Segoe UI,system-ui,sans-serif" font-size="15" font-weight="700" fill="#ffffff">Security</text>
+  <line x1="0" y1="40" x2="200" y2="40" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Items del menú lateral -->
+  <rect x="0" y="48" width="200" height="28" fill="#1a6496"/>
+  <text x="16" y="67" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff" opacity="0.7">General</text>
+
+  <rect x="0" y="76" width="200" height="28" fill="#1a6496"/>
+  <text x="16" y="95" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff" opacity="0.7">System Configuration</text>
+
+  <rect x="0" y="104" width="200" height="28" fill="#0d4f7a"/>
+  <text x="16" y="123" font-family="Segoe UI,system-ui,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Security</text>
+
+  <rect x="0" y="132" width="200" height="28" fill="#1a6496"/>
+  <text x="16" y="151" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff" opacity="0.7">Secure Boot</text>
+
+  <rect x="0" y="160" width="200" height="28" fill="#1a6496"/>
+  <text x="16" y="179" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff" opacity="0.7">Intel Software Guard</text>
+
+  <rect x="0" y="188" width="200" height="28" fill="#1a6496"/>
+  <text x="16" y="207" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff" opacity="0.7">Performance</text>
+
+  <rect x="0" y="216" width="200" height="28" fill="#1a6496"/>
+  <text x="16" y="235" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#ffffff" opacity="0.7">Power Management</text>
+
+  <!-- Panel derecho de contenido -->
+  <rect x="200" y="0" width="520" height="500" fill="#f5f4f3"/>
+
+  <!-- Título de sección -->
+  <rect x="200" y="0" width="520" height="44" fill="#f0efee"/>
+  <text x="220" y="27" font-family="Segoe UI,system-ui,sans-serif" font-size="15" font-weight="700" fill="#1a1a1a">TPM 2.0 Security</text>
+
+  <!-- Subsección TPM 2.0 Security On -->
+  <text x="220" y="66" font-family="Segoe UI,system-ui,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">TPM 2.0 Security On</text>
+  <text x="220" y="84" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Select whether or not the Trusted Platform Module (TPM) is visible to the OS.</text>
+
+  <!-- Toggle OFF con highlight amarillo (estado actual) -->
+  <rect x="218" y="98" width="72" height="26" rx="13" fill="#f0c000"/>
+  <circle cx="228" cy="111" r="10" fill="#ffffff"/>
+  <text x="242" y="116" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="600" fill="#333333">OFF</text>
+
+  <!-- Separador -->
+  <line x1="210" y1="140" x2="700" y2="140" stroke="#d0d0d0" stroke-width="1"/>
+
+  <!-- Intel TME -->
+  <text x="220" y="162" font-family="Segoe UI,system-ui,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Intel® Total Memory Encryption</text>
+  <text x="220" y="180" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Multi-Key Total Memory Encryption (Up to 16 keys)</text>
+  <text x="220" y="198" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">Total Memory Encryption(TME) is used to protect memory from physical attacks.</text>
+
+  <!-- Toggle OFF TME -->
+  <rect x="218" y="212" width="72" height="26" rx="13" fill="#f0c000"/>
+  <circle cx="228" cy="225" r="10" fill="#ffffff"/>
+  <text x="242" y="230" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="600" fill="#333333">OFF</text>
+
+  <!-- Separador -->
+  <line x1="210" y1="254" x2="700" y2="254" stroke="#d0d0d0" stroke-width="1"/>
+
+  <!-- Chassis Intrusion -->
+  <text x="220" y="276" font-family="Segoe UI,system-ui,sans-serif" font-size="13" font-weight="600" fill="#1a1a1a">Chassis Intrusion</text>
+  <text x="220" y="294" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">This field controls the chassis intrusion feature.</text>
+
+  <!-- Radio buttons -->
+  <circle cx="232" cy="318" r="7" fill="none" stroke="#888" stroke-width="2"/>
+  <text x="246" y="323" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#525252">Disabled</text>
+
+  <!-- Enabled con highlight amarillo -->
+  <rect x="330" y="308" width="70" height="24" rx="3" fill="#f0c000" opacity="0.6"/>
+  <circle cx="342" cy="318" r="7" fill="none" stroke="#888" stroke-width="2"/>
+  <text x="356" y="323" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#333">Enabled</text>
+
+  <!-- On-Silent seleccionado -->
+  <circle cx="470" cy="318" r="7" fill="#1a6496" stroke="#1a6496" stroke-width="2"/>
+  <circle cx="470" cy="318" r="3" fill="#ffffff"/>
+  <text x="484" y="323" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#1a1a1a">On-Silent</text>
+
+  <!-- Separador -->
+  <line x1="210" y1="344" x2="700" y2="344" stroke="#d0d0d0" stroke-width="1"/>
+
+  <!-- Botones inferiores -->
+  <rect x="212" y="442" width="130" height="36" rx="3" fill="#e0e0e0" stroke="#b0b0b0" stroke-width="1"/>
+  <text x="242" y="465" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#333333">LOAD DEFAULTS</text>
+
+  <rect x="358" y="442" width="140" height="36" rx="3" fill="#e0e0e0" stroke="#b0b0b0" stroke-width="1"/>
+  <text x="385" y="465" font-family="Segoe UI,system-ui,sans-serif" font-size="12" fill="#333333">APPLY CHANGES</text>
+
+  <!-- Badge "1 changes were made" -->
+  <rect x="512" y="448" width="26" height="24" rx="3" fill="#e67e00"/>
+  <text x="519" y="465" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff">1</text>
+  <text x="542" y="465" font-family="Segoe UI,system-ui,sans-serif" font-size="11" fill="#525252">changes were made</text>
+
+  <!-- Instrucción clave -->
+  <text x="220" y="400" font-family="Segoe UI,system-ui,sans-serif" font-size="12" font-weight="600" fill="#c00000">⚠ Activar el toggle TPM 2.0 Security a ON → Apply Changes</text>
+
+  <!-- Flecha indicando el toggle OFF que debe cambiarse -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#cc0000"/>
+    </marker>
+  </defs>
+  <line x1="204" y1="111" x2="215" y2="111" stroke="#cc0000" stroke-width="2.5" marker-end="url(#arr)"/>
+</svg>

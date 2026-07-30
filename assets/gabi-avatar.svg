@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-label="Gabi avatar">
+  <!-- Fondo círculo azul IBM -->
+  <circle cx="20" cy="20" r="20" fill="#0f62fe"/>
+  <!-- Cara -->
+  <circle cx="20" cy="16" r="7" fill="#ffffff"/>
+  <!-- Cuerpo -->
+  <ellipse cx="20" cy="32" rx="10" ry="8" fill="#ffffff"/>
+  <!-- Ojos -->
+  <circle cx="17" cy="15" r="1.2" fill="#0f62fe"/>
+  <circle cx="23" cy="15" r="1.2" fill="#0f62fe"/>
+  <!-- Sonrisa -->
+  <path d="M17 18.5 Q20 21 23 18.5" stroke="#0f62fe" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+</svg>
